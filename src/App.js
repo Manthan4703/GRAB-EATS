@@ -12,7 +12,6 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import Signup from './screens/Signup.js';
 import MyOrder from './screens/myOrder.js';
-import AdminLogin from './screens/AdminLogin.js';
 
 import VirtualDietician from './screens/VirtualDietician.js';
 import { CartProvider } from './components/ContextReducer.js';
@@ -28,7 +27,6 @@ function App() {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/signup" element={<Signup />} />
             <Route exact path="/myOrder" element={<MyOrder />} />
-            <Route exact path="/AdminLogin" element={<AdminLogin />} />
             <Route exact path="/virtualdietician" element={<VirtualDietician />} />
 
 

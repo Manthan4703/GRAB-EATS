@@ -7,7 +7,7 @@ export default function MyOrder() {
 
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
-        await fetch("http://localhost:5000/api/myOrderData", {
+        await fetch("http://13.232.16.81:5000/api/myOrderData", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
